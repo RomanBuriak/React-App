@@ -1,3 +1,8 @@
-export default function App() {
-  return <h1 className="text-3xl font-bold underline">Start project</h1>;
+import "./App.css";
+import KanbanBoard from "./components/Board";
+
+function App() {
+  return <KanbanBoard />;
 }
+
+export default App;
